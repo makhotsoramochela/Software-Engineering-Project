@@ -122,4 +122,9 @@ tests/          automated tests (and tests/e2e: scripted sessions)
 The layers are enforced by CMake: `lms_business` has no include path to SQLite or libsodium, and
 `lms_ui` is linked only to `lms_business`, so a menu cannot call SQL (rule AR-1).
 
+##Presentation Video: 
+Presentation: https://drive.google.com/file/d/1JFT9N8FAAsJYpSmPvCgyOgorRMixNoeN/view?usp=drive_link
+
+
+
 
