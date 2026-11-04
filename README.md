@@ -1,3 +1,9 @@
+The Presentation video link is here:
+##Presentation Video: 
+Presentation: https://drive.google.com/file/d/1KbvFrabdTuGk0oNb6BrROtiy6B4ATIPo/view?usp=drive_link
+
+
+
 Moderated LMS, version 1.0
 
 A console Learning Management System with moderated marking, written in C++17 with SQLite.
@@ -10,7 +16,7 @@ It works offline, on one computer, with one data file.
  -C++17 compiler (g++ or clang++) (g++ 9 or later, clang 10 or later).It builds the program 
  -CMake (3.16 or later). It also builds the program 
  -SQLite 3 with headers (3.31 or later).For the database 
- -libsodium with headers (1.0.18 or later). For password hashing (Argon2id)
+ -libsodium with headers (1.0.18 or later). For password hasThing (Argon2id)
  -pkg-config (any). Lets CMake find libsodium 
 
 Ubuntu or Debian (tested on Ubuntu 24.04 with g++ 13.3, CMake 3.28, SQLite 3.45, libsodium 1.0.18):
@@ -121,9 +127,6 @@ tests/          automated tests (and tests/e2e: scripted sessions)
 
 The layers are enforced by CMake: `lms_business` has no include path to SQLite or libsodium, and
 `lms_ui` is linked only to `lms_business`, so a menu cannot call SQL (rule AR-1).
-
-##Presentation Video: 
-Presentation: https://drive.google.com/file/d/1JFT9N8FAAsJYpSmPvCgyOgorRMixNoeN/view?usp=drive_link
 
 
 
